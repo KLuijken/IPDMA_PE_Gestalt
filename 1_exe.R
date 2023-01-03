@@ -23,10 +23,10 @@ source( "4_helpers.R")
 # outputs two tables under the /tables folder with missingness and sample size 
 # descriptions; as well as three figures with the RR, sensitivity, and 
 # specificity of gestalt in individual studies
-source( "6_analysis_descriptive.R")
+source( "5_analysis_descriptive.R")
 
 
 # perform main analyses ----
 # outputs six tables under the /tables folder with the RR, sensitivity, and 
 # specificity overall and for a single subgroup
-source( "5_analysis_main.R")
+source( "6_analysis_main.R")
