@@ -17,12 +17,12 @@ The R code in ./5_analysis_main.R and ./6_analysis_descriptive.R create figures 
 
 Attached packages:  
 gt_0.8.0  
-rstanarm_2.21.3 
-lme4_1.1-31
-dplyr_1.0.10
-metafor_3.8-1
-mice_3.15.0
-MASS_7.3-58.1 
+rstanarm_2.21.3  
+lme4_1.1-31  
+dplyr_1.0.10  
+metafor_3.8-1  
+mice_3.15.0  
+MASS_7.3-58.1  
 
 ## Project organization
 
