@@ -10,7 +10,7 @@ The scripts in the current repository can be used to replicate the results in th
 ## Run analysis
 An explainer of the code can be found [here]()
 The script in the current repository can be run using a simple simulated dataset that does not contain meaningful information. 
-The file ./1_exe.R runs the analysis and generates figures at once. This takes around XX time.  
+The file ./1_exe.R runs the analysis and generates figures at once. This takes around 15 seconds.  
 
 ## Generating tables and figures
 The R code in ./5_analysis_main.R and ./6_analysis_descriptive.R create figures and results presenting the results of the analysis. The script produces .pdf and .docx files. 
