@@ -8,6 +8,9 @@
 
 
 # read in data ----
+# alternatively, code can be simulated using 3_simulate_data.R
+# note that this script can be replaced with a data cleaning script in a new
+# empirical analysis
 simulated_data <- readRDS( "./data/simulated_data.rds")
 simulated_data_incomplete <- readRDS( "./data/simulated_data_incomplete.rds")
 
