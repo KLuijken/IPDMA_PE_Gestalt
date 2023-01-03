@@ -8,7 +8,7 @@ This repository accomplishes the manuscript 'Accuracy of the Physicians’ Intui
 The scripts in the current repository can be used to replicate the results in the main text of the above mentioned study, as well as the additional analyses presented in the supplementary materials.
 
 ## Run analysis
-An explainer of the code can be found [here]()
+An explainer of the code can be found [here](https://kluijken.github.io/IPDMA_PE_Gestalt/)
 The script in the current repository can be run using a simple simulated dataset that does not contain meaningful information. 
 The file ./1_exe.R runs the analysis and generates figures at once. This takes around 15 seconds.  
 
