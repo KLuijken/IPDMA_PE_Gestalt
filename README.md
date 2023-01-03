@@ -10,15 +10,19 @@ The scripts in the current repository can be used to replicate the results in th
 ## Run analysis
 An explainer of the code can be found [here]()
 The script in the current repository can be run using a simple simulated dataset that does not contain meaningful information. 
-The file ./rcode/exe runs the analysis and generates figures at once. This takes around XX time.  
+The file ./1_exe.R runs the analysis and generates figures at once. This takes around XX time.  
 
 ## Generating tables and figures
-The R code in ./rcode/visualisation creates figures depicting the results of the analysis. The script produces .pdf and .txt files. 
+The R code in ./5_analysis_main.R and ./6_analysis_descriptive.R create figures and results presenting the results of the analysis. The script produces .pdf and .docx files. 
 
 Attached packages:  
-
-   
- 
+gt_0.8.0  
+rstanarm_2.21.3 
+lme4_1.1-31
+dplyr_1.0.10
+metafor_3.8-1
+mice_3.15.0
+MASS_7.3-58.1 
 
 ## Project organization
 
@@ -28,16 +32,18 @@ Attached packages:
 ├── CITATION.md
 ├── LICENSE.md
 ├── README.md
+├── IPDMA-PE.Proj
 ├── data                      - contains a simulated dataset
 ├── docs
 │   ├── code_explainer        - html file explaining all code
-├── results
-│   ├── figures               - figures shown in manuscript
-│   ├── tables                - tables shown in manuscript
-└── rcode                     - source code for this project
-    ├── analysis              - helper scripts and script for main analysis
-    ├── exe                   - main script from which analysis is executed
-    └── packages              - required dependencies
+├── figures                   - outputted figures
+├── tables                    - outputted tables
+├── 1_exe.R                   - main script from which analysis is executed
+├── 2_packages.R
+├── 3_simulate_data.R
+├── 4_helpers.R               - user defined functions for analysis
+├── 5_analysis_main.R
+└── 6_analysis_descriptive.R
 
 ```
 
